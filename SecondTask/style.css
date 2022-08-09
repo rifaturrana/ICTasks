@@ -1,0 +1,86 @@
+*:focus {
+  outline: none;
+}
+body {
+  background-image: url("https://ledp.ictd.gov.bd/global/img/bg_0.png");
+}
+div {
+  font-size: 15px;
+  font-family: "Open Sans", Tahoma;
+  color: #666666;
+  font-weight: 800;
+}
+.caption {
+  font-family: "Playfair Display", serif;
+  font-size: 150%;
+  letter-spacing: 1px;
+  color: #ec8701;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 15px 15px 15px;
+  text-align: center;
+}
+
+.container {
+  /* background-color: greenyellow; */
+  height: 100vh;
+  padding: 15px;
+}
+
+.stitle {
+  border: none;
+  border-top: 1px dashed #ccc;
+  padding: 0px !important;
+  margin-bottom: 5px;
+  margin: 0;
+}
+
+.left-section {
+  width: 47%;
+  float: left;
+  padding-right: 2%;
+  /* background-color: #ec8701; */
+}
+.right-section {
+  width: 47%;
+  float: right;
+  padding-left: 2%;
+  border-left: 1px solid rgb(7, 144, 144);
+}
+
+input.name {
+  width: 95.5%;
+  height: 35px;
+  color: #000;
+  padding: 0 2%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px #91cce0;
+}
+
+select {
+  width: 100%;
+  height: 35px;
+  color: #000;
+  padding: 0 2%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px #91cce0;
+}
+
+button {
+  border: 1px solid #cbcbcb;
+  padding: 6px 12px 6px 12px;
+  font-size: 120%;
+  margin-top: 6px;
+  border-radius: 5px;
+  transition: all 0.8s;
+}
+button:hover {
+  background-color: antiquewhite;
+}
+.label {
+  margin: 8px 0px;
+}
+label {
+  color: black;
+}

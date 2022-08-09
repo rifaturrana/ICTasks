@@ -1,0 +1,187 @@
+body {
+  margin: 0px;
+}
+.nav-bar {
+  background-color: aliceblue;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+img {
+  position: absolute;
+}
+ul {
+  padding-top: 50px;
+  list-style-type: none;
+
+  display: inline-flex;
+}
+
+li a {
+  display: inline;
+  padding: 12px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.02cm;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0b0b0b;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #048ebc;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left right;
+}
+
+.about {
+  margin-top: 70px;
+
+  height: 450px;
+}
+
+.headings {
+  margin-top: 100px;
+  color: grey;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 30%;
+}
+
+.link-button {
+  border: 1px black solid;
+  text-decoration: none;
+  padding: 8px;
+  margin-bottom: -20px;
+  color: wheat;
+  text-align: center;
+  background-color: #0b0b0b;
+  transition: all 0.7s;
+  border-radius: 5px;
+}
+
+.link-button:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.description {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+}
+.latest-works {
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+.column {
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+.vedio {
+  height: 400px;
+}
+.vlog {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+td,
+th {
+  padding: 15px;
+}
+
+th {
+  background-color: #202124;
+  color: white;
+}
+
+tr:nth-child(even) {
+  color: white;
+  background-color: #202124;
+}
+tr:nth-child(odd) {
+  color: white;
+  background-color: #3d4343;
+}
+button {
+  background-color: #b559b8;
+  border: none;
+  border-radius: 5px;
+}
+
+table {
+  background-color: #375e60;
+  border-collapse: collapse;
+  margin: auto;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+i {
+  padding: 10px;
+  font-size: 30px;
+}
+i:hover {
+  cursor: pointer;
+}
+p {
+  font-family: "Uchen", serif;
+}
